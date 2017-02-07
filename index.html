@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REPRODUCTOR DE VIDEO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>REPRODUCTOR DE VIDEO</h1>
+	</header>
+	<div id="contenedor">
+		<section>
+			<video poster="multimedia/image/poster.jpg">
+				<source src="multimedia/video/corto1.mp4" type="video/mp4">
+			</video>
+		</section>
+		<section>
+			<article>
+				<img src="multimedia/image/mute.png">
+				<img src="multimedia/image/lowVol.png">
+				<input type="range" min="0" max="1" value="0.5" step="0.1" id="rangeVol">
+				<img src="multimedia/image/highVol.png">
+				<span></span>
+			</article>
+			<article>
+				<img src="multimedia/image/rewind.png">
+				<img src="multimedia/image/play.png">
+				<img src="multimedia/image/pause.png">
+				<img src="multimedia/image/forward.png">
+			</article>
+			<article>
+				<img src="multimedia/image/fullScreen.png">
+				<img src="multimedia/image/smallScreen.png">
+			</article>
+		</section>
+		<section>
+			<article>
+				<span></span>
+				<input type="range" min="0" value="0" step="0.2" id="rangeTime">
+				<span></span>
+			</article>
+		</section>
+	</div>
+	<footer>
+		<p>©Jonathan Steven Rubiano Marín</p>
+	</footer>
+</body>
+</html>
